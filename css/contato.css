@@ -313,4 +313,12 @@ span{
         .adress{
             text-align: center;
         }
+
+        footer{
+            width: 100%;
+        }
+        footer p{
+
+            font-size: 10px;
+        }
     }
