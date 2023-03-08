@@ -34,10 +34,14 @@ a{
 }
 
 header{
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
     align-items: center;
     margin-top: 2vh;
+    
 }
 
 /* CONFIGURAÇÕES DO MAIN */
@@ -130,8 +134,10 @@ footer p{
     }
 
     #sub-text{
+
         font-size: 15px;
         line-height: 1.5;
+
     }
     .logo-side img{
 
