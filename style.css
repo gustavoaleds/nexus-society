@@ -77,8 +77,15 @@ header{
 
 }
 .logo-side img{
+
     width: 280px;
 
+}
+
+.logo-side img:hover{
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
 }
 
 main{
