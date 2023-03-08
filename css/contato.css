@@ -272,3 +272,41 @@ span{
         align-items: center;
     }
     }
+
+    @media (max-width: 380px){
+
+        iframe{
+            width: 250px;
+            height: 150px;
+        }
+
+        main{
+            margin: 0;
+        }
+        
+        .table{
+            align-items: center;
+        }
+
+        table td, tr{
+
+            border: solid black 1px;
+            width: 150px;
+            height: 40px;
+        
+            color: black;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .table p{
+
+            text-align: center;
+        }
+
+        span{
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
