@@ -262,15 +262,29 @@ visibility: visible;
         align-items: center;
 }
 
-    input{
-        margin-bottom: 1vh;
-        width: 75vw;
-        height: 5vh;
-}
+    #mensagem{
+        height: 175px;
+        width: 60vw;
+    }
 
-span{
-    margin-top: 2vh;
-}
+    input{
+        width: 60vw;
+    }
+
+    span{
+        margin-top: 2vh;
+    }
+
+    .field.sucess input {
+        border: 3px solid green;
+        width: 60vw;
+    }
+
+    .field.error input {
+        border: 3px solid red;
+        width: 60vw;
+    }
+
 }
 
 @media (max-width: 425px){
